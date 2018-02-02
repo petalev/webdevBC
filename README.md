@@ -117,10 +117,11 @@ regForm.html
 	</select>
 </div>	
 <div>
-	I agree to the terms and conditions <input type="checkbox" required>
+	<label for="agreed"></label>I agree to the terms and conditions 
+	<input type="checkbox" required>
 </div>
 <div>
-	<input type="Submit">
+	<input id="agreed" name="agreed" type="Submit">
 </div>
 </form>
 
